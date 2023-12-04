@@ -1,6 +1,6 @@
 import "reflect-metadata"
 import { DataSource } from "typeorm"
-import { User } from "../user/user.model";
+import { User } from "../account/user.model";
 import { Client } from "pg";
 
 
@@ -17,7 +17,7 @@ export  class DatabaseManager{
           port: 5432,
           username: "root",
           password: 'test',
-          database: "ProjectLifeDatabase",
+          database: "SocialHomeDatabase",
           entities: [User],
           synchronize: true,
           logging: false,

@@ -1,6 +1,6 @@
 import express from 'express';
 import { DatabaseManager } from './src/database/database';
-import userRouter from './src/user/user.route';
+import userRouter from './src/account/user.route';
 
 const app = express();
 const dbmanager = new DatabaseManager();

@@ -13,10 +13,10 @@ export class User {
     id: number
 
     @Column()
-    name: string
+    userid: string
 
     @Column()
-    password: string
+    name: string
 
     @Column()
     email: string

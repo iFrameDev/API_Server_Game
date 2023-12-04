@@ -5,6 +5,6 @@ const userRouter = Router();
 const userController = new UserController();
 
 
-userRouter.get('/checkcharacter', userController.GetUserCharacterRequest);
+userRouter.get('/getuseraccount', userController.GetUserAccountRequest);
 
 export default userRouter;
